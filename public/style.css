@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    background-color:bisque;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+.firstForm{
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: 2rem 2rem;
+    padding: 4rem;
+    
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    margin-bottom:0 ;
+}
+input{
+    padding: 1.4rem;
+    outline: none;
+    border: 3px solid beige;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+textarea{
+    padding: 1.4rem;
+    outline: none;
+    border: 3px solid beige;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+button{
+    background-color: rgba(106, 0, 255);
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.secondForm{
+    display: flex;
+    padding: 1rem;
+}
+.secondForm > button{
+    margin: 1rem;
+}
